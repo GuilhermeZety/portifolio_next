@@ -43,7 +43,7 @@ export function Navbar() {
 
             {isMenuOpen && (
               <div className="fixed inset-0 top-16 bg-background/95 backdrop-blur-md border-t z-40 animate-in">
-                <nav className="flex flex-col p-6 space-y-4">
+                <nav className="flex flex-col p-6 space-y-4  bg-background/95 backdrop-blur-md ">
                   {navItems.map((item) => (
                     <Link
                       key={item.href}

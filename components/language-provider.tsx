@@ -40,6 +40,74 @@ const translations = {
     contactSubtitle: "Entre em contato através de qualquer uma das minhas redes sociais abaixo.",
     /// Timeline items
     ///
+    plenoAnalistFlutterDev: "Flutter Analyst and Developer",
+    plenoAnalistFlutterDevLocale: "W2O Softwares and Applications | Blumenau/SC",
+    plenoAnalistFlutterDevDesc: "Analysis, Architecture, and Development of Applications in Software Factory style, Developing highly scalable applications for medium and large companies, using Clean Architecture, SOLID, and all the best practices of Flutter.",
+    //
+    plenoFlutterDev: "Flutter Developer",
+    plenoFlutterDevLocale: "W2O Softwares and Applications | Blumenau/SC",
+    plenoFlutterDevDesc: "Development in Software Factory style, Developing highly scalable applications for medium and large companies, using Clean Architecture, SOLID, and all the best practices of Flutter.",
+    //
+    webDev: "Full-Stack Junior Developer",
+    webDevLocale: "RZ Systems | Gaspar",
+    webDevDesc: "Development of B2B and B2C Website with connection to internal ERP, developed in Vue.js and .NET Core. Always using the best practices of software development.",
+    //
+    flutterDev: "Junior Flutter Developer",
+    flutterDevLocale: "RZ Systems | Gaspar/SC",
+    flutterDevDesc: "Development of Offline-First application in Flutter for sales, with connection to Rest API.",
+    //
+    graduation: "Professional Course Entra21",
+    graduationLocale: "Blusoft | Blumenau/SC",
+    graduationDesc: "Local training in Blumenau focused on learning programming principles, OOP, and software architecture. Using technologies like Java, C#, Spring Boot, and others.",
+    //
+    graduation2: "Ignite - Flutter",
+    graduation2Locale: "Rocketseat | EAD",
+    graduation2Desc: "Specialized training focused on mobile application development in Flutter. With a focus on Clean Architecture, SOLID, and all the best practices in the Flutter universe.",
+    ///
+    // Skills
+    flutterDartTitle: "Flutter & Dart",
+    flutterDartDesc: "Development of aplicativos nativos com foco em performance.",
+    firebaseTitle: "Firebase & Supabase",
+    firebaseDesc: "Integração com serviços de backend para aplicativos escaláveis.",
+    uiuxTitle: "UI/UX Design",
+    uiuxDesc: "Criação de interfaces intuitivas e experiências de usuário fluidas.",
+    // Projects
+    ecommerceTitle: "Flutter E-commerce App",
+    ecommerceDesc: "Aplicativo de e-commerce completo com Flutter, Firebase e Stripe para pagamentos.",
+    taskManagerTitle: "Task Management App",
+    taskManagerDesc: "Aplicativo de gerenciamento de tarefas com sincronização em tempo real e notificações.",
+    fitnessTitle: "Fitness Tracker",
+    fitnessDesc: "Aplicativo de rastreamento de atividades físicas com gráficos e análises personalizadas.",
+    weatherTitle: "Weather App",
+    weatherDesc: "Aplicativo de previsão do tempo com animações fluidas e dados em tempo real.",
+    // Location
+    location: "Santa Catarina, Brasil",
+  },
+  en: {
+    home: "Home",
+    about: "About",
+    projects: "Projects",
+    contact: "Contact",
+    headline: "Hi, I'm Guilherme Martins.",
+    headline2: "Flutter Developer.",
+    subheadline: "Specialized in creating high-performance mobile experiences with clean code and responsive design.",
+    aboutTitle: "About Me",
+    
+    aboutDescription: "Developer with ",
+    aboutDescriptionHighlight: "4 years of experience",
+    aboutDescriptionRest: ", with 3 years focused on mobile development with Flutter/Dart. Expertise in applying Clean Architecture, SOLID principles, and high problem-solving capabilities. Experienced in unit testing, ensuring code quality, standing out mainly for delivering robust and well-structured solutions.",
+    timeline: "Timeline",
+    projectsTitle: "Projects",
+    contactTitle: "Contact",
+    viewProject: "View Project",
+    viewCode: "View Code",
+    changeTheme: "Change theme",
+    changeLanguage: "Change language",
+    skills: "Skills",
+    projectsSubtitle: "Check out some of my recent Flutter and mobile development projects.",
+    contactSubtitle: "Get in touch through any of my social networks below.",
+     /// Timeline items
+    ///
     plenoAnalistFlutterDev: "Analista e Desenvolvedor Flutter",
     plenoAnalistFlutterDevLocale: "W2O Softwares e Aplicativos | Blumenau/SC",
     plenoAnalistFlutterDevDesc: "Analise, Arquiteturação e Desenvolvimento de Aplicações no estilo Fábrica de Softwares, Desenvolvendo aplicativos de alta escalabilidade para médias e grandes empresas, utilizando Clean Architecture, SOLID e todas as melhores práticas do Flutter.",
@@ -66,57 +134,6 @@ const translations = {
     ///
     // Skills
     flutterDartTitle: "Flutter & Dart",
-    flutterDartDesc: "Desenvolvimento de aplicativos nativos com foco em performance.",
-    firebaseTitle: "Firebase & Supabase",
-    firebaseDesc: "Integração com serviços de backend para aplicativos escaláveis.",
-    uiuxTitle: "UI/UX Design",
-    uiuxDesc: "Criação de interfaces intuitivas e experiências de usuário fluidas.",
-    // Projects
-    ecommerceTitle: "Flutter E-commerce App",
-    ecommerceDesc: "Aplicativo de e-commerce completo com Flutter, Firebase e Stripe para pagamentos.",
-    taskManagerTitle: "Task Management App",
-    taskManagerDesc: "Aplicativo de gerenciamento de tarefas com sincronização em tempo real e notificações.",
-    fitnessTitle: "Fitness Tracker",
-    fitnessDesc: "Aplicativo de rastreamento de atividades físicas com gráficos e análises personalizadas.",
-    weatherTitle: "Weather App",
-    weatherDesc: "Aplicativo de previsão do tempo com animações fluidas e dados em tempo real.",
-    // Location
-    location: "São Paulo, Brasil",
-  },
-  en: {
-    home: "Home",
-    about: "About",
-    projects: "Projects",
-    contact: "Contact",
-    headline: "Hi, I'm Guilherme Martins.",
-    headline2: "Flutter Developer.",
-    subheadline: "Specialized in creating high-performance mobile experiences with clean code and responsive design.",
-    aboutTitle: "About Me",
-    
-    aboutDescription: "Developer with ",
-    aboutDescriptionHighlight: "4 years of experience",
-    aboutDescriptionRest: ", with 3 years focused on mobile development with Flutter/Dart. Expertise in applying Clean Architecture, SOLID principles, and high problem-solving capabilities. Experienced in unit testing, ensuring code quality, standing out mainly for delivering robust and well-structured solutions.",
-    timeline: "Timeline",
-    projectsTitle: "Projects",
-    contactTitle: "Contact",
-    viewProject: "View Project",
-    viewCode: "View Code",
-    changeTheme: "Change theme",
-    changeLanguage: "Change language",
-    skills: "Skills",
-    projectsSubtitle: "Check out some of my recent Flutter and mobile development projects.",
-    contactSubtitle: "Get in touch through any of my social networks below.",
-    // Timeline items
-    seniorFlutterDev: "Senior Flutter Developer",
-    seniorFlutterDesc: "Leading mobile development team with focus on performance and UX.",
-    webDev: "Desenvolvedor Full-Stack Junior",//TODO:
-    webDevDesc: "Desenvolvimento de Website B2B e B2C com conexão com ERP interno, desenvolvido em Vue.js e .NET Core.", //TODO:
-    flutterDev: "Flutter Developer",
-    flutterDevDesc: "Development of mobile applications with Flutter and Firebase integration.",
-    graduation: "Computer Science Degree",
-    graduationDesc: "Education focused on mobile development and software architecture.",
-    // Skills
-    flutterDartTitle: "Flutter & Dart",
     flutterDartDesc: "Development of native applications with focus on performance.",
     firebaseTitle: "Firebase & Supabase",
     firebaseDesc: "Integration with backend services for scalable applications.",
@@ -132,7 +149,7 @@ const translations = {
     weatherTitle: "Weather App",
     weatherDesc: "Weather forecast application with fluid animations and real-time data.",
     // Location
-    location: "São Paulo, Brazil",
+    location: "Santa Catarina, Brazil",
   },
   es: {
     home: "Inicio",
@@ -157,14 +174,32 @@ const translations = {
     skills: "Habilidades",
     projectsSubtitle: "Mira algunos de mis proyectos recientes en Flutter y desarrollo móvil.",
     contactSubtitle: "Ponte en contacto a través de cualquiera de mis redes sociales a continuación.",
-    // Timeline items
-    seniorFlutterDev: "Desarrollador Senior Flutter",
-    seniorFlutterDesc: "Liderando equipo de desarrollo móvil con enfoque en rendimiento y UX.",
-    flutterDev: "Desarrollador Flutter",
-    flutterDevDesc: "Desarrollo de aplicaciones móviles con Flutter e integración con Firebase.",
-    graduation: "Licenciatura en Ciencias de la Computación",
-    graduationDesc: "Formación enfocada en desarrollo móvil y arquitectura de software.",
-    // Skills
+     /// Timeline items
+    ///
+    plenoAnalistFlutterDev: "Analista e Desenvolvedor Flutter",
+    plenoAnalistFlutterDevLocale: "W2O Softwares e Aplicativos | Blumenau/SC",
+    plenoAnalistFlutterDevDesc: "Analise, Arquiteturação e Desenvolvimento de Aplicações no estilo Fábrica de Softwares, Desenvolvendo aplicativos de alta escalabilidade para médias e grandes empresas, utilizando Clean Architecture, SOLID e todas as melhores práticas do Flutter.",
+    //
+    plenoFlutterDev: "Desenvolvedor Flutter Pleno",
+    plenoFlutterDevLocale: "W2O Softwares e Aplicativos | Blumenau/SC",
+    plenoFlutterDevDesc: "Desenvolvimento no estilo Fábrica de Softwares, Desenvolvendo aplicativos de alta escalabilidade para médias e grandes empresas, utilizando Clean Architecture, SOLID e todas as melhores práticas do Flutter.",
+    //
+    webDev: "Desenvolvedor Full-Stack Junior",
+    webDevLocale: "RZ Sistemas | Gaspar",
+    webDevDesc: "Desenvolvimento de Website B2B e B2C com conexão com ERP interno, desenvolvido em Vue.js e .NET Core. Sempre utilizando das melhores práticas do desenvolvimento de um software.",
+    //
+    flutterDev: "Desenvolvedor Flutter Júnior",
+    flutterDevLocale: "RZ Sistemas | Gaspar/SC",
+    flutterDevDesc: "Desenvolvimento de Desenvolvimento aplicativo Offline-First em Flutter para vendas, com conexão em API Rest;",
+    //
+    graduation: "Curso Profisionalizante Entra21",
+    graduationLocale: "Blusoft | Blumenau/SC",
+    graduationDesc: "Formação local de Blumenau focada no aprendizado dos principios da programação, OOP e arquitetura de software. Fazendo utilização de tecnologias como Java, C#, Spring Boot e entre outros.",
+    //
+    graduation2: "Ignite - Flutter",
+    graduation2Locale: "Rocketseat | EAD",
+    graduation2Desc: "Formação especializada focada no desenvolvimento de aplicações Mobile em Flutter. Com foco em Clean Architecture, SOLID e todas as melhores práticas no universo Flutter.",
+    /// // Skills
     flutterDartTitle: "Flutter & Dart",
     flutterDartDesc: "Desarrollo de aplicaciones nativas con enfoque en rendimiento.",
     firebaseTitle: "Firebase & Supabase",
@@ -181,7 +216,7 @@ const translations = {
     weatherTitle: "App del Clima",
     weatherDesc: "Aplicación de pronóstico del tiempo con animaciones fluidas y datos en tiempo real.",
     // Location
-    location: "São Paulo, Brasil",
+    location: "Santa Catarina, Brasil",
   },
 }
 
@@ -193,7 +228,7 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     // Detectar idioma do navegador na primeira carga
     const browserLang = navigator.language.split("-")[0] as Language
-    const validLang = ["pt", "en", "es"].includes(browserLang) ? browserLang : "pt"
+    const validLang = ["pt", "en", "es"].includes(browserLang) ? browserLang : "en"
     setLanguageState(validLang)
   }, [])
 

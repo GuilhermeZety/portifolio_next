@@ -16,26 +16,26 @@ export default function ContactPage() {
     {
       name: "GitHub",
       icon: <Github className="h-6 w-6" />,
-      url: "https://github.com",
-      username: "@guilherme",
+      url: "https://github.com/GuilhermeZety",
+      username: "@guilhermeZety",
     },
     {
       name: "LinkedIn",
       icon: <Linkedin className="h-6 w-6" />,
-      url: "https://linkedin.com",
-      username: "Guilherme Dev",
+      url: "https://www.linkedin.com/in/guilherme-m-l-martins/",
+      username: "Guilherme Martins",
     },
     {
       name: "Twitter",
       icon: <Twitter className="h-6 w-6" />,
       url: "https://twitter.com",
-      username: "@guilhermedev",
+      username: "@Gui_Zety",
     },
     {
-      name: "Email",
+      name: "Mail",
       icon: <Mail className="h-6 w-6" />,
-      url: "mailto:contato@guilherme.dev",
-      username: "contato@guilherme.dev",
+      url: "mailto:guilherme.zety@outlook.com",
+      username: "guilherme.zety@outlook.com",
     },
     {
       name: "Location",
@@ -98,7 +98,7 @@ export default function ContactPage() {
   )
 }
 
-function ExternalLinkIcon(props) {
+function ExternalLinkIcon(props: any) {
   return (
     <svg
       {...props}
