@@ -14,7 +14,15 @@ export default function AboutPage() {
 
   const timelineItems = [
     {
-      year: "2023 - o momento",
+      year: "2025 - o momento",
+      title: translations.iliaPleno,
+      description: translations.iliaPlenoDesc,
+      locale: translations.iliaPlenoLocale,
+      localeLink: "https://ilia.digital/",
+      icon: <Briefcase className="h-5 w-5" />,
+    },
+    {
+      year: "2023 - 2025",
       title: translations.plenoAnalistFlutterDev,
       description: translations.plenoAnalistFlutterDevDesc,
       locale: translations.plenoAnalistFlutterDevLocale,
@@ -103,7 +111,7 @@ export default function AboutPage() {
             >
               <div className="w-full h-full rounded-2xl overflow-hidden">
                 <Image
-                  src="https://images.prismic.io/zety-portifolio/Zv9LcbVsGrYSwWvR_WhatsAppImage2024-10-03at22.56.21.jpeg?auto=format,compress"
+                  src="https://images.prismic.io/zety-portifolio/aDkdEidWJ-7kStky_WhatsAppImage2025-05-27at15.26.46.jpeg"
                   alt="Profile picture"
                   width={300}
                   height={300}
