@@ -98,3 +98,7 @@
 .theme-transition * {
   transition: background-color 1s ease, color 1s ease, border-color 1s ease, fill 1s ease, stroke 1s ease;
 }
+
+.w-quase{
+  width: calc(100% - 20px);
+}

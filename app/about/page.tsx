@@ -4,6 +4,7 @@ import { FloatingGradient } from "@/components/floating-gradient"
 import { useLanguage } from "@/components/language-provider"
 import { Navbar } from "@/components/navbar"
 import { ParticlesBackground } from "@/components/particles-background"
+import { useMobile } from "@/hooks/use-mobile"
 import { motion } from "framer-motion"
 import { Briefcase, Flame, GraduationCap, Sparkles, Zap } from "lucide-react"
 import Image from "next/image"
@@ -12,6 +13,8 @@ import Image from "next/image"
 export default function AboutPage() {
   const { translations } = useLanguage()
 
+  const isMobile = useMobile()
+  
   const timelineItems = [
     {
       year: "2025 - o momento",
@@ -107,15 +110,15 @@ export default function AboutPage() {
               initial={{ opacity: 0, scale: 0.95 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.5 }}
-              className="relative w-full md:w-1/4 max-w-[300px] aspect-square mx-auto md:mx-0"
+              className="relative md:w-full md:w-1/4 max-w-[300px] aspect-square mx-auto md:mx-0"
             >
-              <div className="w-full h-full rounded-2xl overflow-hidden">
+              <div className="md:w-full md:h-full rounded-2xl overflow-hidden">
                 <Image
                   src="https://images.prismic.io/zety-portifolio/aDkdEidWJ-7kStky_WhatsAppImage2025-05-27at15.26.46.jpeg"
                   alt="Profile picture"
-                  width={300}
-                  height={300}
-                  className="w-full h-full object-cover"
+                  width={isMobile ? 200 : 200}
+                  height={isMobile ? 200 : 200}
+                  className="md:w-full md:h-full object-cover"
                   priority
                   quality={100}
                 />

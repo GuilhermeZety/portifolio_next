@@ -74,7 +74,7 @@ export default function ContactPage() {
               initial={{ opacity: 0, x: -20 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.3, delay: 0.2 + index * 0.1 }}
-              className="flex items-center p-4 rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-md transition-all duration-300"
+              className="flex items-center p-4 rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-md transition-all duration-300 md:w-full w-quase"
               whileHover={{ x: 5 }}
             >
               <div className="p-2 mr-4 rounded-full bg-primary/10 text-primary">{link.icon}</div>
