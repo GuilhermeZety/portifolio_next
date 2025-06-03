@@ -15,6 +15,12 @@ export function Navbar() {
   const { language, setLanguage, translations } = useLanguage()
   const isMobile = useMobile()
   const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const [isNavbarReady, setIsNavbarReady] = useState(false)
+
+  // Marcar a navbar como pronta após a detecção de mobile
+  useEffect(() => {
+    setIsNavbarReady(true)
+  }, [isMobile])
 
   // Fechar menu ao mudar de página
   useEffect(() => {
@@ -27,6 +33,19 @@ export function Navbar() {
     { href: "/projects", label: translations.projects },
     { href: "/contact", label: translations.contact },
   ]
+
+  if (!isNavbarReady) {
+    return (
+      <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b">
+        <div className="container max-w-6xl mx-auto flex items-center justify-between h-16 px-4 md:px-6">
+          <Link href="/" className="text-xl font-bold ">
+            Guilherme Martins
+          </Link>
+          <div className="opacity-0">Carregando...</div>
+        </div>
+      </header>
+    )
+  }
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b">
