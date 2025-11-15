@@ -114,7 +114,7 @@ export default function AboutPage() {
             >
               <div className="md:w-full md:h-full rounded-2xl overflow-hidden">
                 <Image
-                  src="https://images.prismic.io/zety-portifolio/aDkdEidWJ-7kStky_WhatsAppImage2025-05-27at15.26.46.jpeg"
+                  src="/me.webp" 
                   alt="Profile picture"
                   width={isMobile ? 200 : 200}
                   height={isMobile ? 200 : 200}
